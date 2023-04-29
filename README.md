@@ -36,7 +36,7 @@ The codes used for the TF-IDF test comes from Week 11 curriculum TF-IDF with Sci
 
 ## Results and Visualization
 A heatmap is drawn to show the top 50 most mentioned keywords of the TF-IDF tests. 
-<img src="heatmap.png" width="2000" height="100">
+<img src="heatmap.png" width="2000" height="2000">
 
 There are several findings based on the results: 
 
