@@ -43,7 +43,7 @@ Secondly, the results also show the time-specific characteristics of the keyword
 
 In the end, a list of keywords that this study is interested in including '国家(nation)',  '政府'(government), '美国'(America), '台湾'(Taiwan), '香港'(Hong Kong) are marked with red dots in the heatmap. The heatmap shows that these keywords all exist in the top 50 ， In particular, '国家(nation)',  '美国'(America), '香港'(Hong Kong) show high TF-IDF scores in all 8 documents, and in week 5 and week 8,  '香港'(Hong Kong) and '国家’(nation) ranked no.10. Nonetheless, most of the most mentioned words  in these censored Weibo posts do not have political connotations. Most of the keywords ranked above 10 are general terms related to daily life or simply emotional expression. It is worth digging if these terms are more likely to be censored when they are mentioned under certain contexts. 
 
-The code used for drawing the heatmap comes from Eric Monson’s Possible TF-IDF results visualization. 
+The code used for drawing the heatmap comes from Eric Monson’s [Possible TF-IDF results visualization](https://github.com/melaniewalsh/Intro-Cultural-Analytics/issues/12). 
 
 ## Discussion & Conclusion
 ### Limitation
