@@ -35,8 +35,8 @@ In addition, to test the hypothesis, I zoom in to see particular words that I’
 The codes used for the TF-IDF test comes from Week 11 curriculum TF-IDF with Scikit-Learn.
 
 ## Results and Visualization
-A heatmap is drawn to show the top 200 most mentioned keywords of the TF-IDF tests. 
-![The San Juan Mountains are beautiful!](/assets/images/san-juan-mountains.jpg "San Juan Mountains")
+A heatmap is drawn to show the top 50 most mentioned keywords of the TF-IDF tests. 
+![heatmap!](images/heatmap.png)
 
 There are several findings based on the results: 
 
