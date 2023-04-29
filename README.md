@@ -19,7 +19,7 @@ Their sample is made up of three particular groups of microbloggers: 1) less tha
 ## Data Cleaning
 Data cleaning is an important step in this study to obtain more accurate results. Stop words removal and tokenization are performed to reduce noise caused by stop words and punctuation marks. 
 
-Two types of stopwords are used in the process of data cleaning. The first kind includes a series of numbers, English letter,  punctuation marks in both English and Chinese. The second type of keywords include a number of Chinese stopwords that are “meaningless” and make the data too noisy and ambiguous. For example,  “一个” means “one [count]” in English, and it is one of the most frequently occurred word shown in the results before this step of cleaning. There are over 100 official stopwords in Chinese, and the full list of stopwords was retrieved by importing the *stopwordsiso* package. 
+Two types of stopwords are used in the process of data cleaning. The first kind includes a series of numbers, English letter,  punctuation marks in both English and Chinese. The second type of keywords include a number of Chinese stopwords that are “meaningless” and make the data too noisy and ambiguous. For example,  “一个” means “one [count]” in English, and it is one of the most frequently occurred word shown in the results before this step of cleaning. There are over 100 official stopwords in Chinese, and the full list of stopwords was retrieved by importing the `*stopwordsiso*` package. 
 
 Another type of noise that frequently occurs throughout the texts are the emojis that are usually framed within the [] symbols. To address this problem, this study imports the *harvesttext* package, and uses the clean_text( ) function to specifically remove emojis. 
 
