@@ -17,9 +17,11 @@ Their sample is made up of three particular groups of microbloggers: 1) less tha
 
 ## Data Cleaning
 Data cleaning is an important step in this study to obtain more accurate results. Stop words removal and tokenization are performed to reduce noise caused by stop words and punctuation marks. 
-Two types of stopwords are used in the process of data cleaning. The first kind includes a series of numbers, English letter,  punctuation marks in both English and Chinese that are not 
-The second type of keywords include a number of Chinese stopwords that are “meaningless” and make the data too noisy and ambiguous. For example,  “一个” means “one [count]” in English, and it is one of the most frequently occurred word shown in the results before this step of cleaning. There are over 100 official stopwords in Chinese, and the full list of stopwords was retrieved by importing the *stopwordsiso* package.  
+
+Two types of stopwords are used in the process of data cleaning. The first kind includes a series of numbers, English letter,  punctuation marks in both English and Chinese. The second type of keywords include a number of Chinese stopwords that are “meaningless” and make the data too noisy and ambiguous. For example,  “一个” means “one [count]” in English, and it is one of the most frequently occurred word shown in the results before this step of cleaning. There are over 100 official stopwords in Chinese, and the full list of stopwords was retrieved by importing the *stopwordsiso* package. 
+
 Another type of noise that frequently occurs throughout the texts are the emojis that are usually framed within the [] symbols. To address this problem, this study imports the *harvesttext* package, and uses the clean_text( ) function to specifically remove emojis. 
+
 After removing most of the stopwords and symbols that could distract us in the text 
 analysis, tokenization is performed to break up the texts into individual tokens that is convenient for us to conduct the TF-IDF test later. To tokenize the texts, *spaCy* is installed and used to separate words by adding spaces. The tokenized words then were saved into new files (e.g. week1_tokenized.txt) before the tf-idf test.
 The codes used for stopwords removal and tokenization are developed from the internet and coursework content: [Chinese Natural Language (Pre)processing: An Introduction](https://towardsdatascience.com/chinese-natural-language-pre-processing-an-introduction-995d16c2705f), a Chinese blogpost about [Data Cleaning of Weibo Data](https://blog.csdn.net/qq_40200387/article/details/107048316), and Melanie Walsh’s [Text Pre-Processing for Chinese](https://melaniewalsh.github.io/Intro-Cultural-Analytics/05-Text-Analysis/Multilingual/Chinese/01-Preprocessing-Chinese.html).
