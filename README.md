@@ -35,7 +35,10 @@ In addition, to test the hypothesis, I zoom in to see particular words that I’
 The codes used for the TF-IDF test comes from Week 11 curriculum TF-IDF with Scikit-Learn.
 
 ## Results and Visualization
-A heatmap is drawn to show the top 200 most mentioned keywords of the TF-IDF tests. There are several findings based on the results: 
+A heatmap is drawn to show the top 200 most mentioned keywords of the TF-IDF tests. 
+![The San Juan Mountains are beautiful!](/assets/images/san-juan-mountains.jpg "San Juan Mountains")
+
+There are several findings based on the results: 
 
 First of all, two terms that constantly show up in the heat map in both simplified and traditional Chinese are “微博”(Weibo) and “转发”(retweet). This means that a majority of the censored posts are retweets of other posts. This also points to a problem of this study: since the dataset only includes the text content of the retweets, it is unable to distinguish if these posts are censored because of the retweet content or the content of the original post. 
 
