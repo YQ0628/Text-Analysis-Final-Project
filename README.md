@@ -10,7 +10,7 @@ This research investigates how the censorship device operates on Weibo by lookin
 The major research question of this study is: what are the important keywords that trigger the censorship mechanism on Weibo?
 
 ## Results
-According to the tf-idf test results, the expected keywords that reflect a relationship with international and governmental affairs appear in the list of the most mentioned words in the dataset. However, the results only returns general terms that are not able to reflect the specific political issues that are targeted by the censorship mechanism.
+According to the tf-idf test results, the expected keywords that indicate connections with international and governmental affairs appear in the list of the most mentioned words in the dataset. However, the results only returns general terms that are not able to reflect the specific political issues that are targeted by the censorship mechanism.
 
 ## Conclusion
 To summarize, Weibo posts that contain political discussion are highly likely to be targeted by the internet censorship machine. However, further investigation is needed to explore the the most sensitive words that are related to specific political issues.  
