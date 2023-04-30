@@ -3,7 +3,7 @@
 
 ## Abstract
 Censorship, the suppression of speech, public communication and other information, has significant implications on individuals’ freedom to speech in a country. As the Internet rapidly develops in the 21st century, social media becomes the major platform for individuals to share information and speak up. In China, one of the most influential social media platforms that boasts over 500 million registered users as of 2021 is called Sina Weibo. When the platform was first launched in 2009, the Chinese government praised it for enabling people to raise suggestions for the government on the platform. However, the censorship mechanism on Weibo became stronger over the past decade and created enormous fear for people to speak freely on the platform. 
-This research investigates how the censorship device operates on Weibo by looking at a database called Weiboscope that collects 111 million censored posts in 2012 from Weibo. In particular, it randomly selected 2-month period data to conduct the analysis using TF-IDF test. 
+This research investigates how the censorship device operates on Weibo by looking at a database called Weiboscope that collects 111 million censored posts in 2012 from Weibo. In particular, it randomly selected 2-month period data to conduct the analysis to pinpoint the keywords that trigger censorship using TF-IDF test. 
 
 
 ## Research Question
